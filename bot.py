@@ -3,7 +3,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 import sqlite3
 from datetime import datetime, timedelta
 
-TOKEN = "8617315953:AAEkSUwUrcGG4uXY0BtKe30KIa44BNXqJLw"
+import os
+TOKEN = os.getenv("TOKEN")
 ADMIN_ID = 6059358910
 
 DB = "bot_capcut.db"
