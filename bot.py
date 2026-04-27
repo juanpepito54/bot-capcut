@@ -6,8 +6,6 @@ from datetime import datetime, timedelta
 import os
 
 TOKEN = os.getenv("TOKEN")
-
-print("TOKEN LEÍDO:", TOKEN)
 ADMIN_ID = 6059358910
 
 DB = "bot_capcut.db"
